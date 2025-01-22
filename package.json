@@ -1,0 +1,28 @@
+{
+  "name": "okx",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@okxweb3/coin-base": "^1.1.0",
+    "@okxweb3/coin-bitcoin": "^1.2.0",
+    "@okxweb3/coin-ethereum": "^1.0.12",
+    "@okxweb3/coin-solana": "^1.1.0",
+    "@okxweb3/coin-sui": "^1.1.0",
+    "@okxweb3/crypto-lib": "^1.0.10",
+    "axios": "^1.7.9",
+    "chalk": "^4.1.2",
+    "cli-table3": "^0.6.5",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.4.7",
+    "easy-table": "^1.2.0",
+    "node-fetch": "^3.3.2",
+    "web3": "^4.16.0"
+  }
+}
