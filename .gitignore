@@ -6,3 +6,7 @@ coverage/
 
 # 忽略构建输出
 dist/
+
+.addresses.txt
+
+.env

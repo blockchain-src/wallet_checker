@@ -1,6 +1,6 @@
 # Wallet Checker
 
-Wallet Checker 是一个用于管理钱包有效性的工具。
+Wallet Checker 是一个用于管理钱包的工具。
 
 ## 1️⃣ 克隆仓库
 
