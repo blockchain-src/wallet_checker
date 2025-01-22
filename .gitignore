@@ -10,3 +10,5 @@ dist/
 .addresses.txt
 
 .env
+
+chains.json
