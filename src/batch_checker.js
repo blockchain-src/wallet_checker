@@ -1,3 +1,5 @@
+const crypto = require('crypto');
+globalThis.crypto = crypto;
 const { EthWallet } = require('@okxweb3/coin-ethereum');
 const { BtcWallet } = require('@okxweb3/coin-bitcoin');
 const { SolWallet } = require('@okxweb3/coin-solana');
@@ -7,7 +9,6 @@ const fs = require('fs');
 const path = require('path');
 const chalk = require('chalk');
 const https = require('https');
-const crypto = require('crypto');
 const querystring = require('querystring');
 require('dotenv').config({ path: path.resolve(__dirname, '../.env') });
 
