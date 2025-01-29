@@ -167,7 +167,7 @@ async function batchFetchAssets(addresses, chains) {
   }));
   console.table(formattedResults);
   const totalAssets = Object.values(results).reduce((sum, balance) => sum + balance, 0);
-  console.log(chalk.yellow.bold(`💲  以上所有钱包地址的资产总和为: ${totalAssets.toFixed(2)}`));
+  console.log(chalk.magenta.bold(`💲  以上所有钱包地址的资产总和为: ${totalAssets.toFixed(2)}`));
 }
 
 // 主函数
